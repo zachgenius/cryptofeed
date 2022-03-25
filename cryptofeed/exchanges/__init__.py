@@ -32,6 +32,7 @@ from .exx import EXX
 from .ftx import FTX
 from .ftx_us import FTXUS
 from .gateio import Gateio
+from .gateio_futures import GateioFutures
 from .gemini import Gemini
 from .hitbtc import HitBTC
 from .huobi import Huobi
@@ -73,6 +74,7 @@ EXCHANGE_MAP = {
     FTX_str: FTX,
     FTX_US: FTXUS,
     GATEIO: Gateio,
+    GATEIO_FUTURE: GateioFutures,
     GEMINI: Gemini,
     HITBTC: HitBTC,
     HUOBI_DM: HuobiDM,
