@@ -15,7 +15,6 @@ from yapic import json
 from cryptofeed.connection import AsyncConnection, RestEndpoint, Routes, WebsocketEndpoint
 from cryptofeed.defines import BID, ASK, CANDLES, GATEIO, L2_BOOK, TICKER, TRADES, BUY, SELL, OPEN_INTEREST, \
     LIQUIDATIONS, ORDER_INFO, FILLS, POSITIONS, FUNDING
-from cryptofeed.exchanges.mixins.gateio_rest import GateioRestMixin
 from cryptofeed.feed import Feed
 from cryptofeed.symbols import Symbol
 from cryptofeed.types import OrderBook, Trade, Ticker, Candle, Funding
